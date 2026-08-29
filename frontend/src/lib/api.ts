@@ -1,6 +1,6 @@
 import type { PredictionResult, HistoryRecord, Language } from '../types';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = (import.meta.env.VITE_API_URL || 'https://cropsense-backend-ca5m.onrender.com').replace(/\/$/, '') + '/api';
 
 export async function predictLeaf(
   file: File,
