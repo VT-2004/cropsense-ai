@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { ShieldCheck, AlertTriangle, AlertOctagon, Download, Sparkles, TrendingDown, DollarSign, Info } from 'lucide-react';
 import type { PredictionResult, Language } from '../types';
 import { getPdfReportUrl } from '../lib/api';
@@ -8,7 +8,7 @@ interface ResultCardProps {
   language: Language;
 }
 
-export const ResultCard: React.FC<ResultCardProps> = ({ result, language }) => {
+export const ResultCard: FC<ResultCardProps> = ({ result, language }) => {
   const isHealthy = result.severity === 'Healthy' || result.severity_score === 0;
 
   const getSeverityBadge = () => {

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef, type FC } from 'react';
 import { Layers, Upload, CheckCircle2, RefreshCw, Download } from 'lucide-react';
 import type { PredictionResult, Language } from '../types';
 import { predictBatch, getPdfReportUrl } from '../lib/api';
@@ -7,7 +7,7 @@ interface BatchUploaderProps {
   language: Language;
 }
 
-export const BatchUploader: React.FC<BatchUploaderProps> = ({ language }) => {
+export const BatchUploader: FC<BatchUploaderProps> = ({ language }) => {
   const [files, setFiles] = useState<File[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<PredictionResult[]>([]);

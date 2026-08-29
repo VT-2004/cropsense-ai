@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef, type FC, type FormEvent, type DragEvent } from 'react';
 import { Upload, Camera, MapPin, Calendar, Layers, Sparkles } from 'lucide-react';
 import type { Language } from '../types';
 
@@ -8,7 +8,7 @@ interface ImageUploaderProps {
   language: Language;
 }
 
-export const ImageUploader: React.FC<ImageUploaderProps> = ({
+export const ImageUploader: FC<ImageUploaderProps> = ({
   onDiagnose,
   isLoading,
   language,
@@ -35,7 +35,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({
     if (isCameraActive) stopCamera();
   };
 
-  const handleDrop = (e: React.DragEvent) => {
+  const handleDrop = (e: DragEvent) => {
     e.preventDefault();
     setIsDragOver(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
@@ -50,7 +50,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
       }
-    } catch (err) {
+    } catch {
       alert(language === 'hi' ? 'कैमरा शुरू नहीं हो सका।' : 'Unable to access camera.');
       setIsCameraActive(false);
     }
@@ -83,7 +83,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({
     stopCamera();
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     if (!selectedFile) return;
     onDiagnose(selectedFile, farmAcres, seasonCode, fieldName);

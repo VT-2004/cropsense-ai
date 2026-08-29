@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { Sprout, Layers, History, Globe } from 'lucide-react';
 import type { Language } from '../types';
 
@@ -10,7 +10,7 @@ interface NavbarProps {
   isBackendConnected: boolean;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({
+export const Navbar: FC<NavbarProps> = ({
   activeTab,
   setActiveTab,
   language,
@@ -20,7 +20,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header className="sticky top-0 z-50 glass-panel border-b border-forest-500/20 px-4 lg:px-8 py-3.5">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Brand Logo & Name */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-forest-600 to-forest-400 flex items-center justify-center shadow-lg shadow-forest-500/30">
             <Sprout className="w-6 h-6 text-slate-950 stroke-[2.5]" />
@@ -42,7 +41,6 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
         </div>
 
-        {/* Navigation Tabs */}
         <nav className="flex items-center gap-1.5 sm:gap-2 bg-slate-900/80 p-1 rounded-xl border border-white/5">
           <button
             onClick={() => setActiveTab('single')}
@@ -87,9 +85,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
         </nav>
 
-        {/* Status indicator & Language Toggle */}
         <div className="flex items-center gap-3">
-          {/* Backend Health Badge */}
           <div
             className={`hidden md:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs border ${
               isBackendConnected
@@ -105,7 +101,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span>{isBackendConnected ? 'Models Online' : 'Connecting...'}</span>
           </div>
 
-          {/* Bilingual Switcher */}
           <button
             onClick={() => setLanguage(language === 'en' ? 'hi' : 'en')}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-900 border border-white/10 text-gray-300 hover:text-forest-400 hover:border-forest-500/40 transition-colors"

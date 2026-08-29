@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { ImageUploader } from './components/ImageUploader';
 import { ResultCard } from './components/ResultCard';
@@ -105,9 +105,9 @@ export function App() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <p>© 2026 CropSense AI. All agronomic models trained and verified.</p>
           <div className="flex items-center gap-4 text-gray-400">
-            <span>FastAPI Backend :8000</span>
+            <span>FastAPI Backend</span>
             <span>•</span>
-            <span>Vite Frontend :5173</span>
+            <span>React Frontend</span>
           </div>
         </div>
       </footer>

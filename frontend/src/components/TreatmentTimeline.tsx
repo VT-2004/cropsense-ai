@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { CheckCircle2, Shield, Droplets } from 'lucide-react';
 import type { Language } from '../types';
 
@@ -9,7 +9,7 @@ interface TreatmentTimelineProps {
   language: Language;
 }
 
-export const TreatmentTimeline: React.FC<TreatmentTimelineProps> = ({
+export const TreatmentTimeline: FC<TreatmentTimelineProps> = ({
   treatments,
   prevention,
   isHealthy,

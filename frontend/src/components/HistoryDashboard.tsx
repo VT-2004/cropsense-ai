@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState, type FC } from 'react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { History, Download, Trash2, RefreshCw } from 'lucide-react';
 import type { HistoryRecord, Language } from '../types';
@@ -8,7 +8,7 @@ interface HistoryDashboardProps {
   language: Language;
 }
 
-export const HistoryDashboard: React.FC<HistoryDashboardProps> = ({ language }) => {
+export const HistoryDashboard: FC<HistoryDashboardProps> = ({ language }) => {
   const [history, setHistory] = useState<HistoryRecord[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
