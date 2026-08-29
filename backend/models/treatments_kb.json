@@ -1,0 +1,522 @@
+{
+  "Apple___Apple_scab": {
+    "disease_name": "Apple - Apple scab",
+    "crop": "Apple",
+    "condition": "Apple scab",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Apple photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Apple scab to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Apple___Black_rot": {
+    "disease_name": "Apple - Black rot",
+    "crop": "Apple",
+    "condition": "Black rot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Apple photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Black rot to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Apple___Cedar_apple_rust": {
+    "disease_name": "Apple - Cedar apple rust",
+    "crop": "Apple",
+    "condition": "Cedar apple rust",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Apple photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Cedar apple rust to prevent spore dispersal.",
+      "Apply Propiconazole 25% EC (1ml/L) or Tebuconazole fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Apple___healthy": {
+    "disease_name": "Healthy Apple",
+    "crop": "Apple",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Blueberry___healthy": {
+    "disease_name": "Healthy Blueberry",
+    "crop": "Blueberry",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "disease_name": "Cherry (including sour) - Powdery mildew",
+    "crop": "Cherry (including sour)",
+    "condition": "Powdery mildew",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Cherry (including sour) photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Powdery mildew to prevent spore dispersal.",
+      "Spray Wettable Sulfur (2g/L) or Azoxystrobin (1ml/L) during early morning.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "disease_name": "Healthy Cherry (including sour)",
+    "crop": "Cherry (including sour)",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "disease_name": "Corn (maize) - Cercospora leaf spot Gray leaf spot",
+    "crop": "Corn (maize)",
+    "condition": "Cercospora leaf spot Gray leaf spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Corn (maize) photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Cercospora leaf spot Gray leaf spot to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "disease_name": "Corn (maize) - Common rust ",
+    "crop": "Corn (maize)",
+    "condition": "Common rust ",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Corn (maize) photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Common rust  to prevent spore dispersal.",
+      "Apply Propiconazole 25% EC (1ml/L) or Tebuconazole fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "disease_name": "Corn (maize) - Northern Leaf Blight",
+    "crop": "Corn (maize)",
+    "condition": "Northern Leaf Blight",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Corn (maize) photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Northern Leaf Blight to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Corn_(maize)___healthy": {
+    "disease_name": "Healthy Corn (maize)",
+    "crop": "Corn (maize)",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Grape___Black_rot": {
+    "disease_name": "Grape - Black rot",
+    "crop": "Grape",
+    "condition": "Black rot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Grape photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Black rot to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "disease_name": "Grape - Esca (Black Measles)",
+    "crop": "Grape",
+    "condition": "Esca (Black Measles)",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Grape photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Esca (Black Measles) to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "disease_name": "Grape - Leaf blight (Isariopsis Leaf Spot)",
+    "crop": "Grape",
+    "condition": "Leaf blight (Isariopsis Leaf Spot)",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Grape photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Leaf blight (Isariopsis Leaf Spot) to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Grape___healthy": {
+    "disease_name": "Healthy Grape",
+    "crop": "Grape",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "disease_name": "Orange - Haunglongbing (Citrus greening)",
+    "crop": "Orange",
+    "condition": "Haunglongbing (Citrus greening)",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Orange photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Haunglongbing (Citrus greening) to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Peach___Bacterial_spot": {
+    "disease_name": "Peach - Bacterial spot",
+    "crop": "Peach",
+    "condition": "Bacterial spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Peach photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Bacterial spot to prevent spore dispersal.",
+      "Apply Streptocycline (0.5g/10L) combined with Copper Oxychloride (2.5g/L).",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Peach___healthy": {
+    "disease_name": "Healthy Peach",
+    "crop": "Peach",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "disease_name": "Pepper, bell - Bacterial spot",
+    "crop": "Pepper, bell",
+    "condition": "Bacterial spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Pepper, bell photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Bacterial spot to prevent spore dispersal.",
+      "Apply Streptocycline (0.5g/10L) combined with Copper Oxychloride (2.5g/L).",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Pepper,_bell___healthy": {
+    "disease_name": "Healthy Pepper, bell",
+    "crop": "Pepper, bell",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Potato___Early_blight": {
+    "disease_name": "Potato - Early blight",
+    "crop": "Potato",
+    "condition": "Early blight",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Potato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Early blight to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Potato___Late_blight": {
+    "disease_name": "Potato - Late blight",
+    "crop": "Potato",
+    "condition": "Late blight",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Potato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Late blight to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Potato___healthy": {
+    "disease_name": "Healthy Potato",
+    "crop": "Potato",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Raspberry___healthy": {
+    "disease_name": "Healthy Raspberry",
+    "crop": "Raspberry",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Soybean___healthy": {
+    "disease_name": "Healthy Soybean",
+    "crop": "Soybean",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Squash___Powdery_mildew": {
+    "disease_name": "Squash - Powdery mildew",
+    "crop": "Squash",
+    "condition": "Powdery mildew",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Squash photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Powdery mildew to prevent spore dispersal.",
+      "Spray Wettable Sulfur (2g/L) or Azoxystrobin (1ml/L) during early morning.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Strawberry___Leaf_scorch": {
+    "disease_name": "Strawberry - Leaf scorch",
+    "crop": "Strawberry",
+    "condition": "Leaf scorch",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Strawberry photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Leaf scorch to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Strawberry___healthy": {
+    "disease_name": "Healthy Strawberry",
+    "crop": "Strawberry",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  },
+  "Tomato___Bacterial_spot": {
+    "disease_name": "Tomato - Bacterial spot",
+    "crop": "Tomato",
+    "condition": "Bacterial spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Bacterial spot to prevent spore dispersal.",
+      "Apply Streptocycline (0.5g/10L) combined with Copper Oxychloride (2.5g/L).",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Early_blight": {
+    "disease_name": "Tomato - Early blight",
+    "crop": "Tomato",
+    "condition": "Early blight",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Early blight to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Late_blight": {
+    "disease_name": "Tomato - Late blight",
+    "crop": "Tomato",
+    "condition": "Late blight",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Late blight to prevent spore dispersal.",
+      "Apply Mancozeb 75% WP (2g/L) or Metalaxyl-Mancozeb immediately.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Leaf_Mold": {
+    "disease_name": "Tomato - Leaf Mold",
+    "crop": "Tomato",
+    "condition": "Leaf Mold",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Leaf Mold to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "disease_name": "Tomato - Septoria leaf spot",
+    "crop": "Tomato",
+    "condition": "Septoria leaf spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Septoria leaf spot to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "disease_name": "Tomato - Spider mites Two-spotted spider mite",
+    "crop": "Tomato",
+    "condition": "Spider mites Two-spotted spider mite",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Spider mites Two-spotted spider mite to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Target_Spot": {
+    "disease_name": "Tomato - Target Spot",
+    "crop": "Tomato",
+    "condition": "Target Spot",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Target Spot to prevent spore dispersal.",
+      "Apply broad-spectrum Copper Hydroxide or Chlorothalonil fungicide.",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "disease_name": "Tomato - Tomato Yellow Leaf Curl Virus",
+    "crop": "Tomato",
+    "condition": "Tomato Yellow Leaf Curl Virus",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Tomato Yellow Leaf Curl Virus to prevent spore dispersal.",
+      "Control insect vectors (whiteflies/aphids) using Imidacloprid (0.5ml/L) or Neem oil (5ml/L).",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "disease_name": "Tomato - Tomato mosaic virus",
+    "crop": "Tomato",
+    "condition": "Tomato mosaic virus",
+    "severity_profile": "Active Infection",
+    "cause": "Fungal/Bacterial/Viral disease affecting Tomato photosynthetic foliage.",
+    "treatment": [
+      "Prune and destroy infected leaves with visible Tomato mosaic virus to prevent spore dispersal.",
+      "Control insect vectors (whiteflies/aphids) using Imidacloprid (0.5ml/L) or Neem oil (5ml/L).",
+      "Avoid overhead sprinkler irrigation to reduce leaf wetness duration.",
+      "Improve soil drainage and avoid excessive nitrogen fertilizer application."
+    ],
+    "prevention": "Use certified disease-free seeds, practice 3-year crop rotation, and maintain field sanitation."
+  },
+  "Tomato___healthy": {
+    "disease_name": "Healthy Tomato",
+    "crop": "Tomato",
+    "condition": "Healthy (No Pathogen)",
+    "severity_profile": "None",
+    "cause": "Optimal plant health and nutrient balance.",
+    "treatment": [
+      "Maintain scheduled drip irrigation and soil moisture monitoring.",
+      "Apply balanced N-P-K fertilizer according to crop growth stage.",
+      "Continue weekly visual scouting of undersides of leaves for early pest detection."
+    ],
+    "prevention": "Ensure proper crop spacing, sterile pruning tools, and seasonal crop rotation."
+  }
+}

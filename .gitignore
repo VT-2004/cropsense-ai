@@ -1,0 +1,40 @@
+# Node dependencies & build
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Python & Virtual Envs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+backend/.venv/
+env/
+venv/
+ENV/
+
+# Database & temp files
+backend/database/*.db
+backend/database/*.sqlite
+backend/temp/
+*.pdf
+test_leaf.jpg
+test_report.pdf
+
+# Large ZIP archives (Keep models folder intact)
+*.zip
+cropsense_models.zip
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
