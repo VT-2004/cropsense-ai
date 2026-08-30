@@ -42,7 +42,7 @@ class LeafClassifier:
             tf.config.threading.set_inter_op_parallelism_threads(1)
             tf.config.threading.set_intra_op_parallelism_threads(2)
 
-            # Load EfficientNet with compile=False for ultra-low memory usage
+            # Load EfficientNet with compile=False for low memory usage
             if os.path.exists(EFFICIENTNET_KERAS):
                 try:
                     self.disease_model = tf.keras.models.load_model(EFFICIENTNET_KERAS, compile=False)
@@ -80,7 +80,6 @@ class LeafClassifier:
         image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
         image = image.resize(target_size, Image.Resampling.BILINEAR)
         img_array = np.array(image, dtype=np.float32)
-        # Standard [0, 255] for EfficientNet or normalized if model requires
         img_array = np.expand_dims(img_array, axis=0)
         return img_array
 
@@ -146,14 +145,16 @@ class LeafClassifier:
 
         return {
             "raw_class": raw_class_name,
+            "raw_class_name": raw_class_name,
+            "class_index": predicted_idx,
+            "disease_code": predicted_idx,
             "crop": crop,
             "disease_name": f"{crop} - {disease}" if not is_healthy else f"Healthy {crop}",
             "confidence": round(confidence, 2),
             "pre_check": pre_check,
             "severity": severity,
             "severity_score": severity_score,
-            "top3": top3,
-            "disease_code": predicted_idx
+            "top3": top3
         }
 
 classifier = LeafClassifier()
