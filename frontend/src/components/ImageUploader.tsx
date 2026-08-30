@@ -105,7 +105,7 @@ export const ImageUploader: FC<ImageUploaderProps> = ({
         </div>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6" id="cropDiagnosisForm">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-7 flex flex-col justify-center">
             {isCameraActive ? (
@@ -189,10 +189,13 @@ export const ImageUploader: FC<ImageUploaderProps> = ({
               </div>
             )}
             <input
+              id="fileUploadInput"
+              name="leafImage"
               type="file"
               ref={fileInputRef}
               accept="image/*"
               className="hidden"
+              aria-label="Upload leaf image"
               onChange={(e) => e.target.files?.[0] && handleFileChange(e.target.files[0])}
             />
           </div>
@@ -204,11 +207,13 @@ export const ImageUploader: FC<ImageUploaderProps> = ({
             </h3>
 
             <div className="space-y-1.5">
-              <label className="text-xs font-medium text-gray-300 flex items-center gap-1">
+              <label htmlFor="fieldNameInput" className="text-xs font-medium text-gray-300 flex items-center gap-1">
                 <MapPin className="w-3.5 h-3.5 text-forest-400" />
                 {language === 'hi' ? 'खेत का नाम / प्लॉट' : 'Field Name / Plot ID'}
               </label>
               <input
+                id="fieldNameInput"
+                name="fieldName"
                 type="text"
                 value={fieldName}
                 onChange={(e) => setFieldName(e.target.value)}
@@ -219,12 +224,14 @@ export const ImageUploader: FC<ImageUploaderProps> = ({
 
             <div className="space-y-1.5">
               <div className="flex justify-between items-center text-xs">
-                <span className="font-medium text-gray-300">
+                <label htmlFor="farmAcresInput" className="font-medium text-gray-300">
                   {language === 'hi' ? 'खेत का आकार (एकड़)' : 'Plot Area (Acres)'}
-                </span>
+                </label>
                 <span className="text-forest-400 font-bold">{farmAcres} Acres</span>
               </div>
               <input
+                id="farmAcresInput"
+                name="farmAcres"
                 type="range"
                 min="0.2"
                 max="20"
@@ -236,11 +243,13 @@ export const ImageUploader: FC<ImageUploaderProps> = ({
             </div>
 
             <div className="space-y-1.5">
-              <label className="text-xs font-medium text-gray-300 flex items-center gap-1">
+              <label htmlFor="seasonCodeSelect" className="text-xs font-medium text-gray-300 flex items-center gap-1">
                 <Calendar className="w-3.5 h-3.5 text-forest-400" />
                 {language === 'hi' ? 'वर्तमान मौसम' : 'Current Season'}
               </label>
               <select
+                id="seasonCodeSelect"
+                name="seasonCode"
                 value={seasonCode}
                 onChange={(e) => setSeasonCode(parseInt(e.target.value))}
                 className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-white/10 text-white text-xs sm:text-sm focus:outline-none focus:border-forest-400 transition"
